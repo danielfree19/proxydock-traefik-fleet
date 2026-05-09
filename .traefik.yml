@@ -1,0 +1,17 @@
+displayName: Traefik Fleet Provider
+type: provider
+import: github.com/danielfree19/proxydock/providers/traefik-fleet
+summary: |
+  Pull-based provider that fetches dynamic configuration from a central
+  Traefik Fleet Manager and applies it to this Traefik instance. On manager
+  outages it serves the last-known-good configuration from disk.
+
+testData:
+  endpoint: "http://manager-api:8080"
+  fleetID: "homelab"
+  agentID: "traefik-1"
+  token: "dev-token-1"
+  pollInterval: "5s"
+  pollTimeout: "5s"
+  cacheFile: "/var/lib/traefik-fleet/last-good.json"
+  failMode: "keep-last-good"
