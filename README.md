@@ -26,7 +26,7 @@ is back.
 experimental:
   localPlugins:
     fleet:
-      moduleName: github.com/danielfree19/proxydock/providers/traefik-fleet
+      moduleName: github.com/danielfree19/proxydock-traefik-fleet
 
 providers:
   plugin:
