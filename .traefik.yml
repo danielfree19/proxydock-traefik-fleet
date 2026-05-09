@@ -1,6 +1,6 @@
 displayName: Traefik Fleet Provider
 type: provider
-import: github.com/danielfree19/proxydock/providers/traefik-fleet
+import: github.com/danielfree19/proxydock-traefik-fleet
 summary: |
   Pull-based provider that fetches dynamic configuration from a central
   Traefik Fleet Manager and applies it to this Traefik instance. On manager

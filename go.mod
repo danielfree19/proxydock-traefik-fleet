@@ -1,3 +1,3 @@
-module github.com/danielfree19/proxydock/providers/traefik-fleet
+module github.com/danielfree19/proxydock-traefik-fleet
 
 go 1.25
